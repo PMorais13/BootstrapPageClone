@@ -1,0 +1,29 @@
+.bd-masthead {
+    padding: 3rem 0 15rem 0;
+    background: linear-gradient(165deg, #f7f5fb 50%, #fff 50%);
+}
+
+.bd-masthead h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    line-height: 1; 
+}
+
+.bd-masthead .lead {
+    font-size: calc(1.275rem + .3vw);
+    font-weight: 400;
+    color: #495057;
+}
+
+/*Botões*/
+.bd-masthead .btn {
+    padding: .8rem 2rem;
+    font-weight: 600;
+}
+
+/*Botão Get Start*/
+.btn-bd-primary {
+    font-weight: 600;
+    color: #fff;
+    background-color: #7952b3;
+    border-color: #7952b3;
+}

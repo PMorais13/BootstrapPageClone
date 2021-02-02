@@ -1,0 +1,114 @@
+/*Icone de instalação*/
+
+.masthead-followup-icon {
+    padding: .75rem;
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0.01));
+    border-radius: .75rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 10%);
+}
+
+/*Botão copiar npm instalação*/
+.bd-clipboard {
+    position: relative;
+    display: none;
+    float: right;
+}
+
+.btn-clipboard {
+    position: absolute;
+    top: .65rem;
+    right: .65rem;
+    z-index: 10;
+    display: block;
+    padding: .25rem .5rem;
+    font-size: .65em;
+    color: #0d6efd;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: .25rem;
+}
+
+.bd-clipboard+.highlight {
+    margin-top: 0;
+}
+
+.highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+}
+
+.highlight pre {
+    padding: 0;
+    margin-top: .65rem;
+    margin-bottom: .65rem;
+    white-space: pre;
+    background-color: transparent;
+    border: 0;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: .875em;
+}
+
+.highlight pre code {
+    font-size: inherit;
+    color: #212529;
+    word-wrap: normal;
+}
+
+.chroma .language-sh::before {
+    color: #009;
+    content: "$ ";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/*Icone do bootstrap icon*/
+.bd-bg-purple-bright {
+    background-color: #7952b3;
+}
+
+/*Letras para copiar do JsDilivr*/
+.chroma .c {
+    color: #727272;
+}
+
+.chroma .nt {
+    color: #2f6f9f;
+}
+
+.chroma .na {
+    color: #006ee0;
+}
+
+.chroma .o {
+    color: #555;
+}
+
+.chroma .s {
+    color: #d73038;
+}
+
+
+
+
+/*Responsividade*/
+@media (min-width: 768px) {
+
+    /*Botão copiar npm instalação*/
+    .bd-clipboard {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .highlight {
+        padding: 1rem 1.5rem;
+    }
+}
