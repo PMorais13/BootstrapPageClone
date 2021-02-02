@@ -16,5 +16,4 @@ export class SectionComponent implements OnInit {
   copiar(codeElement: HTMLElement): void {
     navigator.clipboard.writeText(codeElement.innerHTML);
   }
-
 }
